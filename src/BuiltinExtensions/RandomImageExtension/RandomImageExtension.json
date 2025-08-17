@@ -1,0 +1,11 @@
+{
+    "Name": "Random Image Extension",
+    "Version": "1.0.0",
+    "Author": "SwarmUI Team",
+    "Description": "Adds a 'Random Image' button to the Init Image section that automatically selects random images from a specified folder. Perfect for Generate Forever mode and batch generation with variety.",
+    "Tags": ["Images", "Parameters", "UI"],
+    "License": "MIT",
+    "RequiredSwarmVersion": "0.9.0",
+    "Dependencies": [],
+    "Permissions": ["randimg_use_random_image"]
+}

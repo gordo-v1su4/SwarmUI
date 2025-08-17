@@ -1,0 +1,36 @@
+/* SwarmUI Random Image Extension - Styles */
+
+#random-image-btn {
+    transition: all 0.2s ease;
+}
+
+#random-image-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#random-image-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.random-image-notification {
+    animation: slideInRight 0.3s ease;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Style for the button container in the init image section */
+.param-box .d-flex.mt-2 {
+    justify-content: flex-start;
+    gap: 0.25rem;
+}

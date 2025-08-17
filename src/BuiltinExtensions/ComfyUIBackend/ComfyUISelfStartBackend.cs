@@ -541,6 +541,7 @@ public class ComfyUISelfStartBackend : ComfyUIAPIAbstractBackend
                     await pipCall($"Remove numpy2+", $"uninstall -y numpy");
                     await update("numpy", "numpy==1.26.4");
                 }
+                await install("peft", "peft"); // Late-added nunchaku dep
                 // Nunchaku devs seem very confused how to python package. So we gotta do some cursed install for them.
                 bool isValid = true;
                 string pyVers = "310";
@@ -562,17 +563,19 @@ public class ComfyUISelfStartBackend : ComfyUIAPIAbstractBackend
                 else if (torchPipVers.StartsWith("2.6.")) { torchVers = "2.6"; }
                 else if (torchPipVers.StartsWith("2.7.")) { torchVers = "2.7"; }
                 else if (torchPipVers.StartsWith("2.8.")) { torchVers = "2.8"; }
+                else if (torchPipVers.StartsWith("2.9.")) { torchVers = "2.9"; }
                 else
                 {
-                    Logs.Error($"Nunchaku is not currently supported on your Torch version ({torchPipVers} not in range [2.5, 2.8]).");
+                    Logs.Error($"Nunchaku is not currently supported on your Torch version ({torchPipVers} not in range [2.5, 2.9]).");
                     isValid = false;
                 }
-                // eg https://github.com/mit-han-lab/nunchaku/releases/download/v0.3.1/nunchaku-0.3.1+torch2.5-cp310-cp310-linux_x86_64.whl
-                string url = $"https://github.com/mit-han-lab/nunchaku/releases/download/v0.3.1/nunchaku-0.3.1+torch{torchVers}-cp{pyVers}-cp{pyVers}-{osVers}.whl";
+                string nunchakuTargetVersion = "0.3.2";
+                // eg https://github.com/mit-han-lab/nunchaku/releases/download/v0.3.2/nunchaku-0.3.2+torch2.5-cp310-cp310-linux_x86_64.whl
+                string url = $"https://github.com/mit-han-lab/nunchaku/releases/download/v{nunchakuTargetVersion}/nunchaku-{nunchakuTargetVersion}+torch{torchVers}-cp{pyVers}-cp{pyVers}-{osVers}.whl";
                 if (isValid)
                 {
                     string nunchakuVers = getVers("nunchaku");
-                    if (nunchakuVers is not null && Version.Parse(nunchakuVers) < Version.Parse("0.3.1"))
+                    if (nunchakuVers is not null && Version.Parse(nunchakuVers) < Version.Parse(nunchakuTargetVersion))
                     {
                         await update("nunchaku", url);
                     }

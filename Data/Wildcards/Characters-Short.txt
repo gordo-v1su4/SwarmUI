@@ -1,0 +1,8 @@
+# Condensed Characters for HBO Cartel Series
+MIGUEL: 23yo Latino man, black hoodie, neck tattoos, fade haircut, silver chain, intense expression
+CARLOS: 32yo Latino enforcer, buzz cut, teardrop tattoo, black tactical gear, gold chain, muscular
+HASSAN: 62yo Middle Eastern clerk, gray beard, blue shirt, name tag, thin build, tired eyes
+SICARIO_1: 28yo Latino hitman, shaved head, neck tattoos, all black tracksuit, stone-faced
+SICARIO_2: 31yo Latino enforcer, slicked hair, facial scar, dark jacket, silver cross chain
+ELENA: 22yo Latina woman, long dark hair, denim jacket, white top, petite, worried look
+DIEGO: 25yo Latino, missing cousin, flannel shirt, athletic build, clean shaven

@@ -1,0 +1,10 @@
+# HBO Cartel Series - Cinematic Color Palettes (4 hex colors each)
+convenience store cyan glow: #00B4D8 #006A6B #FFB347 #1A1A1A, harsh fluorescent lighting, cold blue-green dominant tones
+noir shadows: #0D1B2A #1B263B #E63946 #F1FAEE, high contrast dramatic lighting, deep blacks with red accents  
+street sodium: #FF6B35 #F7931E #2F4858 #1C1C1C, warm orange street lights, urban night atmosphere
+police strobe: #DC143C #1E3A8A #FFFFFF #000000, flashing red and blue emergency lights, stark contrasts
+cartel gold: #FFD700 #8B4513 #2F1B14 #000000, luxury gold chains and watches, rich brown leather
+valley night: #2C5F2D #97BC62 #1A472A #0B1426, suburban darkness with hints of green, isolated feeling
+blood money: #8B0000 #2F4F4F #C0C0C0 #000000, deep crimson, steel gray, dramatic shadows
+fluorescent hell: #00FFFF #008B8B #FFFF00 #2F2F2F, oversaturated store lighting, sickly cyan and yellow
+dawn escape: #FF7F50 #4682B4 #2F4F4F #191970, orange sunrise breaking through blue night, hope and desperation

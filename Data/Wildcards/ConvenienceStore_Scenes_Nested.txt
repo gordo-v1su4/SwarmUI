@@ -1,0 +1,20 @@
+# HBO Cartel Series - Using Nested Wildcards
+<wildcard:Miguel> grabs <random:Red Bull|Monster|energy drink> in convenience store, <wildcard:Cinematic_Look>, checks phone showing missed calls, black SUV pulls up outside
+
+<wildcard:Miguel> at register with <wildcard:Hassan> who trembles while scanning drink, <wildcard:Cinematic_Look>, clerk whispers <random:"leave now"|"get out"|"they're here">
+
+<wildcard:Carlos> enters with <random:2|3> <wildcard:Sicario>, <wildcard:Cinematic_Look>, blocks exits, calls out <random:"Miguel"|"Hey Miguel">
+
+<wildcard:Miguel> trapped between aisles as <wildcard:Carlos> explains Diego stole <random:$50k|$75k>, <wildcard:Cinematic_Look>, throws <random:bloody wallet|torn shirt> at feet
+
+<wildcard:Miguel> grabs bottle, smashes light fixture creating sparks, <wildcard:Cinematic_Look>, tries rear exit but finds it <random:chained|locked>
+
+<wildcard:Carlos> tackles <wildcard:Miguel> into display, <wildcard:Cinematic_Look>, cans explode across floor, spots shotgun behind counter
+
+<wildcard:Miguel> vaults counter grabbing <wildcard:Hassan>'s shotgun but it's empty, <wildcard:Cinematic_Look>, Hassan removed shells after robbery
+
+Police sirens approach, <wildcard:Cinematic_Look>, <wildcard:Carlos> signals crew, <wildcard:Miguel> knows cartel has <random:LAPD contacts|police informants>
+
+<wildcard:Miguel> threatens security footage but <wildcard:Carlos> reveals <random:they own store|Hassan works for them|it's a trap>, <wildcard:Cinematic_Look>
+
+Police lights flash, <wildcard:Cinematic_Look>, <wildcard:Miguel> must <random:surrender|come quietly> or watch <wildcard:Hassan> die for Diego's debt

@@ -1,20 +1,41 @@
-# HBO Cartel Series - Using Nested Wildcards
-<wildcard:Miguel> grabs <random:Red Bull|Monster|energy drink> in convenience store, <wildcard:Cinematic_Look>, checks phone showing missed calls, black SUV pulls up outside
+# HBO Cartel Series - Convenience Store Confrontation Scenes
+# Using nested wildcards for dynamic scene generation
 
-<wildcard:Miguel> at register with <wildcard:Hassan> who trembles while scanning drink, <wildcard:Cinematic_Look>, clerk whispers <random:"leave now"|"get out"|"they're here">
+# Opening - Miguel enters store unaware
+<wildcard:Miguel> <wildcard:Actions_Stress>, enters convenience store at <random:2am|3am|midnight>, <wildcard:Location_Details>, grabs <random:Red Bull|Monster energy|Rockstar> from cooler, <wildcard:Cinematic_Look>, checks phone: <random:7|12|15> missed calls from <random:Elena|unknown number|Diego's old number>, black <random:Escalade|Suburban|Tahoe> pulling up outside
 
-<wildcard:Carlos> enters with <random:2|3> <wildcard:Sicario>, <wildcard:Cinematic_Look>, blocks exits, calls out <random:"Miguel"|"Hey Miguel">
+# Building tension with Hassan
+<wildcard:Miguel> approaches register, <wildcard:Hassan> <random:nervously scanning items|hands shaking|sweating profusely>, <wildcard:Location_Details>, clerk's eyes darting to <random:parking lot|door|panic button>, whispers urgently <random:"They've been waiting"|"Leave now"|"Back door, go!"|"It's a trap">, <wildcard:Cinematic_Look>
 
-<wildcard:Miguel> trapped between aisles as <wildcard:Carlos> explains Diego stole <random:$50k|$75k>, <wildcard:Cinematic_Look>, throws <random:bloody wallet|torn shirt> at feet
+# Carlos arrives with crew
+<wildcard:Carlos> enters with <random:2|3|4> <wildcard:Sicario>, <random:bell chiming ominously|door slamming shut|silence falling>, <wildcard:Location_Details>, sicarios spread out blocking <random:all exits|escape routes|windows>, <wildcard:Cinematic_Look>, Carlos's gold chain catching fluorescent light
 
-<wildcard:Miguel> grabs bottle, smashes light fixture creating sparks, <wildcard:Cinematic_Look>, tries rear exit but finds it <random:chained|locked>
+# The confrontation escalates
+<wildcard:Miguel> <wildcard:Actions_Stress>, trapped between <random:snack aisles|drink coolers|candy displays>, <wildcard:Carlos> calmly explaining Diego stole <random:$50k|$75k|$100k> of <random:cartel money|product|weapons>, <wildcard:Cinematic_Look>, produces <random:bloody wallet|Diego's severed finger|torn shirt with bullet holes|phone with last video>, throws it at Miguel's feet
 
-<wildcard:Carlos> tackles <wildcard:Miguel> into display, <wildcard:Cinematic_Look>, cans explode across floor, spots shotgun behind counter
+# Desperation and failed escape
+<wildcard:Miguel> in panic grabs <random:glass bottle|40oz beer|wine bottle>, smashes overhead light creating <random:sparking chaos|shower of glass|darkness>, <wildcard:Location_Details>, sprints for <random:rear exit|employee door|loading dock> but finds it <random:chained shut|welded closed|blocked by sicario>, <wildcard:Cinematic_Look>
 
-<wildcard:Miguel> vaults counter grabbing <wildcard:Hassan>'s shotgun but it's empty, <wildcard:Cinematic_Look>, Hassan removed shells after robbery
+# Physical confrontation
+<wildcard:Carlos> tackles <wildcard:Miguel> into <random:chip display|soda pyramid|magazine rack>, products exploding everywhere, <wildcard:Actions_Stress>, Miguel spots <wildcard:Hassan>'s <random:shotgun|pistol|baseball bat> behind counter, <wildcard:Location_Details>, <wildcard:Cinematic_Look>, struggle intensifies
 
-Police sirens approach, <wildcard:Cinematic_Look>, <wildcard:Carlos> signals crew, <wildcard:Miguel> knows cartel has <random:LAPD contacts|police informants>
+# The empty gun revelation
+<wildcard:Miguel> breaks free, vaults counter grabbing weapon, <random:pumps shotgun|checks chamber|pulls trigger> - nothing, <wildcard:Hassan> explains <random:"Unloaded after son died"|"No bullets since robbery"|"Police made me remove ammo">, <wildcard:Carlos> laughing, <wildcard:Cinematic_Look>, Miguel's hope crumbling
 
-<wildcard:Miguel> threatens security footage but <wildcard:Carlos> reveals <random:they own store|Hassan works for them|it's a trap>, <wildcard:Cinematic_Look>
+# Police arrival complication
+<random:Sirens wailing|Police lights approaching|Helicopter overhead>, <wildcard:Location_Details>, <wildcard:Carlos> checking watch, signals crew - <random:2|3|5> minutes to extract, <wildcard:Miguel> realizes cartel owns <random:half of LAPD|local precinct|responding officers>, <wildcard:Cinematic_Look>
 
-Police lights flash, <wildcard:Cinematic_Look>, <wildcard:Miguel> must <random:surrender|come quietly> or watch <wildcard:Hassan> die for Diego's debt
+# The trap revealed
+<wildcard:Miguel> threatening to destroy security system, <wildcard:Carlos> reveals truth: <random:store is cartel front|Hassan owes them too|this was planned for weeks>, <wildcard:Actions_Stress>, <wildcard:Location_Details>, Miguel realizes <random:Elena sold him out|Diego set him up|he was followed all week>, <wildcard:Cinematic_Look>
+
+# Final ultimatum
+<random:Police surrounding building|SWAT van arriving|Helicopter searchlight hitting windows>, <wildcard:Miguel> <wildcard:Actions_Stress>, <wildcard:Carlos> gives final choice: <random:come quietly|surrender now|join them> or watch <wildcard:Hassan> <random:die slowly|pay Diego's debt|lose his family>, <wildcard:Cinematic_Look>, <wildcard:Location_Details>, clock ticking
+
+# Alternative intense scenes
+<wildcard:Miguel> trying to call <random:Elena|911|his crew> but <wildcard:Carlos> shows him <random:video of Elena tied up|his mom's house surrounded|his crew already dead>, <wildcard:Actions_Stress>, <wildcard:Cinematic_Look>, no way out
+
+<wildcard:Hassan> suddenly pulls hidden gun on <wildcard:Carlos>, revealing he's <random:FBI informant|undercover DEA|Miguel's inside man>, but sicario already behind him, <wildcard:Location_Details>, <wildcard:Cinematic_Look>, betrayal within betrayal
+
+<wildcard:Miguel> <wildcard:Actions_Stress>, remembering Diego's last words: <random:"Trust no one"|"They're everywhere"|"Family first"|"Run when you see the sign">, spots <random:hidden message|secret compartment|escape route> Diego left, <wildcard:Cinematic_Look>
+
+SWAT breach imminent, <wildcard:Carlos> ordering sicarios to <random:"Clean it up"|"No witnesses"|"Burn it down">, <wildcard:Miguel> must choose: <random:save Hassan|save himself|call Carlos's bluff|reveal his wire>, <wildcard:Location_Details>, <wildcard:Cinematic_Look>, everything in slow motion

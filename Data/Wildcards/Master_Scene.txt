@@ -1,0 +1,21 @@
+# Master Scene Selector - HBO Cartel Series
+# This file randomly selects from all available scene types
+# Just use <wildcard:Master_Scene> in your prompt
+
+<wildcard:ConvenienceStore_Scenes_Nested>
+<wildcard:TrapHouse_Scenes>
+<wildcard:ConvenienceStore_Scenes>
+<wildcard:TrapHouse_Scenes>
+<wildcard:ConvenienceStore_Scenes_Nested>
+<wildcard:TrapHouse_Scenes>
+
+# Mixed location scenes combining elements
+<wildcard:Miguel> fleeing convenience store, <wildcard:Actions_Stress>, arrives at trap house where <random:3|4|5> homies waiting, <wildcard:Location_Details>, <wildcard:Cinematic_Look>, explaining what just happened with <wildcard:Carlos>
+
+<wildcard:Miguel> in trap house getting call about <wildcard:Carlos> at convenience store, <wildcard:Actions_Stress>, homies gearing up, <wildcard:Location_Details>, <wildcard:Cinematic_Look>, preparing for confrontation
+
+Flashback: <wildcard:Miguel> remembering last time at convenience store before Diego disappeared, <wildcard:Actions_Stress>, now in trap house with same <wildcard:Hassan>'s energy drink, <wildcard:Location_Details>, <wildcard:Cinematic_Look>
+
+Split scene: <wildcard:Miguel> in trap house while <wildcard:Carlos> and crew heading to convenience store, <wildcard:Actions_Stress>, parallel action, <wildcard:Location_Details>, <wildcard:Cinematic_Look>, countdown to confrontation
+
+<wildcard:Miguel> <wildcard:Actions_Stress>, flashing between trap house memories with Diego and current convenience store standoff with <wildcard:Carlos>, <wildcard:Location_Details>, <wildcard:Cinematic_Look>, past and present colliding

@@ -1,0 +1,5 @@
+# Ultimate One-Click Generation
+# Just type: <wildcard:Generate>
+# Includes scene + quality settings
+
+<wildcard:Master_Scene>, <random:8K|4K UHD>, <random:ultra detailed|highly detailed|extremely detailed>, <random:RAW photo|cinematic still|film screenshot>, <random:35mm film|anamorphic lens|ARRI Alexa>, <random:shallow depth of field|bokeh|tilt-shift>, <random:night scene|golden hour|harsh lighting>, professional photography
